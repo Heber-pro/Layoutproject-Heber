@@ -1,0 +1,55 @@
+
+body {
+margin: 0;
+background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header {
+height: 40px;
+
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   gap: 20px;
+}
+
+.left-yellow {
+     background-color: yellow;
+     height: 500px;
+}
+
+.right-box {
+  background-color: cyan;
+  height: 500px;
+}
+
+.center {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-blue {
+    background-color: blue;
+    height: 250px;
+}
+
+.bottom-gray {
+background-color: gray;
+height: 230px;
+}
+.footer {
+    height: 80px;
+    background-color: red;
+    margin: 10px;
+}
+
+.left-yellow, .right-box {
+    width: 20%;
+}

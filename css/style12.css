@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+   padding: 0px;
+    border-color: black;
+    
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    float: row;
+    
+}
+
+.header {
+    flex-basis: 40%;
+    background-color: gold;
+    padding: 60px;
+    font-size: 24px;
+    margin-right: 2%;
+min-height: 500px;
+
+}
+
+main {
+     flex-basis: 30%;
+    background-color: gray;
+    padding: 80px;
+    font-size: 24px;
+    margin-right: 2%;
+    min-height: 300px;
+}
+
+.footer {
+     flex-basis: 40%;
+    background-color: aqua;
+    padding: 60px;
+    font-size: 24px;
+margin-left: 10px;
+min-height: 300px;
+}
